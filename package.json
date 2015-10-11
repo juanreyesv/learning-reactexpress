@@ -1,0 +1,23 @@
+{
+  "name": "reactexpress",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "browser-sync": "^2.9.11",
+    "browserify": "^11.2.0",
+    "ejs": "^2.3.4",
+    "express": "^4.13.3",
+    "guid": "0.0.12",
+    "gulp": "^3.9.0",
+    "gulp-live-server": "0.0.29",
+    "react": "^0.14.0",
+    "reactify": "^1.1.1",
+    "vinyl-source-stream": "^1.1.0"
+  }
+}
