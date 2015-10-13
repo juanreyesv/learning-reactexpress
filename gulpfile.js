@@ -28,7 +28,7 @@ gulp.task('copy', function() {
 
 gulp.task('serve', ['bundle', 'live-server'], function() {
   browserSync.init(null, {
-    proxy: "http://localhost:7777",
-    port: 9001
+    proxy: "http://localhost:4321",
+    port: 4322
   });
 });

@@ -9,6 +9,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "body-parser": "^1.14.1",
     "browser-sync": "^2.9.11",
     "browserify": "^11.2.0",
     "ejs": "^2.3.4",
@@ -16,6 +17,7 @@
     "guid": "0.0.12",
     "gulp": "^3.9.0",
     "gulp-live-server": "0.0.29",
+    "jquery": "^2.1.4",
     "react": "^0.14.0",
     "reactify": "^1.1.1",
     "vinyl-source-stream": "^1.1.0"
