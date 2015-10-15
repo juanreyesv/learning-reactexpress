@@ -15,7 +15,7 @@ module.exports = function (app) {
     console.log("Adding item...", item);
     var groceryItem = new GroceryItem(item);
     groceryItem.save(function(err, data) {
-      res.status(300).send();
+      res.status(201).send(data);
     })
   })
 
@@ -24,7 +24,8 @@ module.exports = function (app) {
     GroceryItem.findOne({
       _id: req.params.id
     }).remove(function (x) {
-      console.log("Removed item: ", x);
+      console.log(" ", x);
+      res.status(200).send();
     });
   })
   .patch(function(req, res){
